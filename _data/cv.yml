@@ -1,60 +1,63 @@
-- title: General Information
+- title: "General Information"
   type: map
   contents:
-    - name: Full Name
-      value: Phan Thi Ngoc Hang
-    - name: Date of Birth
-      value: 2005
-    - name: Languages
-      value: English, Vietnam
+    - name: "Full Name"
+      value: "Phan Thi Ngoc Hang"
+    - name: "Date of Birth"
+      value: "2005"
+    - name: "Languages"
+      value: "English, Vietnamese"
 
-- title: Education
+- title: "Education"
   type: time_table
   contents:
-    - title: Bachelor
-      institution: Foreign Trade University, Hanoi, Vietnam
-      year: 2023
+    - title: "Bachelor"
+      institution: "Foreign Trade University, Hanoi, Vietnam"
+      year: "2023"
       description:
-        - Majoring in International Economic
-        - title: GPA
+        - "Majoring in International Economics"
+      details:
+        - title: "GPA"
           contents:
-            - 3.55
-       - title: Expected graduation date
+            - "3.55"
+        - title: "Expected graduation date"
           contents:
-            - 2027-01-01
+            - "2027-01-01"
 
-- title: Research Experience
+- title: "Research Experience"
   type: time_table
   contents:
-    - title: SR-ICYREB 2025
-      year: 2025
+    - title: "SR-ICYREB 2025"
+      year: "2025"
       description:
-        - Analyzed the impact of ICT on provincial competitiveness using panel data; estimated with OLS and fixed-effects models and performed robustness checks with clustered SE and time fixed effects. 
-        - Result statistically significant positive effect of ICT on competitiveness; produced policy recommendations for digital infrastructure prioritization.
-        - title: Award
+        - "Analyzed the impact of ICT on provincial competitiveness using panel data; estimated with OLS and fixed-effects models and performed robustness checks with clustered SE and time fixed effects."
+        - "Result: statistically significant positive effect of ICT on competitiveness; produced policy recommendations for digital infrastructure prioritization."
+      details:
+        - title: "Award"
           contents:
-            - Best paper presentation 
+            - "Best paper presentation"
 
-- title: Open Source Projects
+- title: "Open Source Projects"
   type: time_table
   contents:
-    - title: <a href="https://github.com/ngochangg">al-folio</a>
-      year: 2015-now
-      description: A project.
+    - title: "<a href=\"https://github.com/ngochangg\">al-folio</a>"
+      year: "2015-now"
+      description:
+        - "A project."
 
-- title: Academic Interests
+- title: "Academic Interests"
   type: nested_list
   contents:
-    - title: Maths
+    - title: "Maths"
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "Description 1."
+        - "Description 2."
+    - title: "Topic 2"
       items:
-        - Description 1.
-        - Description 2.
+        - "Description 1."
+        - "Description 2."
 
-- title: Other Interests
+- title: "Other Interests"
   type: list
   contents:
-    - <u>Hobbies:</u> Reading books, Traveling.
+    - "Hobbies: Reading books, Traveling."
