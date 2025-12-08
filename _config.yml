@@ -639,3 +639,32 @@ jsonresume:
   - languages
   - interests
   - references
+
+# ----------
+navbar:
+  - title: "About"
+    url: "/"
+
+  - title: "CV"
+    url: "/cv/"
+
+  - title: "Projects"
+    url: "/projects/"
+
+  - title: "Repositories"
+    url: "/repositories/"
+
+  - title: "Publications"
+    url: "/publications/"
+
+  - title: "Teaching"
+    url: "/teaching/"
+
+  - title: "People"
+    url: "/people/"
+
+  - title: "More"
+    children:
+      - title: "Submenus"
+        url: "/submenus/"
+
